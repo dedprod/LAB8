@@ -1,4 +1,3 @@
-import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -80,7 +79,6 @@ public class Calc {
     }
 
     public static void main(String args[]) {
-        int result;
         int num1 = 1;
         int num2 = 1;
         int den1 = 1;
